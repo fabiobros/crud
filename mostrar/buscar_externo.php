@@ -54,9 +54,6 @@
               <a href="../edit/editar_etiqueta.php?id=<?php echo $row['id']?>">
               <i class="fas fa-pen-square fa-3x"></i>
               </a>
-              <a href="../edit/editar_pessoa.php?id=<?php echo $row['id']?>">
-              <i class="fas fa-user fa-2x"></i>
-              </a>
             </td>
           </tr>
           <?php } ?>

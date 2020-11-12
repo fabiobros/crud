@@ -5,7 +5,7 @@ include_once("../conexao/conexao.php");
 $id                  = filter_input(INPUT_POST, 'id', FILTER_SANITIZE_NUMBER_INT);
 $nome_destinatario   = filter_input(INPUT_POST, 'nome_destinatario', FILTER_SANITIZE_STRING);
 $etiqueta            = filter_input(INPUT_POST, 'etiqueta', FILTER_SANITIZE_STRING);
-$status              = filter_input(INPUT_POST, 'status_etiqueta', FILTER_SANITIZE_NUMBER_INT);
+$status              = filter_input(INPUT_POST, 'status_etiqueta', FILTER_SANITIZE_STRING);
 
 $cadastro_usuario = "UPDATE etiquetas SET nome_destinatario='$nome_destinatario', etiqueta='$etiqueta', status_etiqueta='$status' WHERE id='$id'";
 

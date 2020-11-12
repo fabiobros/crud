@@ -42,7 +42,7 @@ $row_etiqueta = mysqli_fetch_assoc($result_total_etiquetas);
                             <input type="contato" name="etiqueta" class="form-control" placeholder="Digite o numero da etiqueta" value="<?php echo $row_etiqueta['etiqueta']; ?>" autofocus>
                     </div>
                     <div class="form-group">
-                            <input type="number" name="status_etiqueta" class="form-control" placeholder="Digite o status da etiqueta" value="<?php echo $row_etiqueta['status_etiqueta']; ?>" autofocus>
+                            <input type="text" name="status_etiqueta" class="form-control" placeholder="Digite o status da etiqueta" value="<?php echo $row_etiqueta['status_etiqueta']; ?>" autofocus>
                     </div>
                     <input type="submit" class="btn btn-success btn-block"  name="salvar_dados" value="Salvar">
                 </form>
