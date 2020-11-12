@@ -13,15 +13,12 @@
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a href="index.php" class="navbar-brand"> INICIO CRUD - FABIO </a>
-            <a href="cadastro_pessoa.php" class="navbar-brand">   Cadastrar Pessoa </a>
-            <a href="cadastro_etiqueta.php" class="navbar-brand"> Cadastrar Etiqueta </a>
-            <a href="listar.php" class="navbar-brand"> Listar Pessoas </a>
-            <a href="listar_etiqueta.php" class="navbar-brand"> Listar Etiquetas </a>
-            <a href="buscar_externo.php" class="navbar-brand"> Buscar Etiquetas</a>
+            <a href="cadastros/cadastro_pessoa.php" class="navbar-brand">   Cadastrar Pessoa </a>
+            <a href="cadastros/cadastro_etiqueta.php" class="navbar-brand"> Cadastrar Etiqueta </a>
+            <a href="mostrar/listar.php" class="navbar-brand"> Listar Pessoas </a>
+            <a href="mostrar/listar_etiqueta.php" class="navbar-brand"> Listar Etiquetas </a>
+            <a href="mostrar/buscar_externo.php" class="navbar-brand"> Atualizar Etiquetas</a>
         </div>
     </nav>
-     
-
-
 </body>
 </html>
